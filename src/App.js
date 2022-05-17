@@ -1,9 +1,9 @@
-import Form from './components/Form';
+import FormBox from './components/FormBox';
 
 const App = () =>  {
   return (
     <div className="app">
-       <Form />
+       <FormBox />
     </div>
   );
 }

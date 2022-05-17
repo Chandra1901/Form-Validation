@@ -4,9 +4,9 @@ import './Form.css'
 const  Headers = () => {
   return (
     <div className='Headers'>
-        <h1 className='head'>SOC2 Regulation Details</h1>
+        <h1 className='head1'>SOC2 Regulation Details</h1>
         <br />
-        <h4 className='head'>New SOC2 Regulation Details</h4>
+        <h4 className='head2'>New SOC2 Regulation Details</h4>
     </div>
   )
 }

@@ -1,24 +1,48 @@
 .Container {
-    width: 500px;
-    height: 550px;
-    margin-top: 40px;
-    margin-left: 500px;
-    padding: 96px;
+    width: 430px;
+    height:  490px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 20px;
     background-color:honeydew;
     border: 1px solid gray;
     border-radius: 10px;
+    overflow-y: scroll;
+    /* overflow: hidden; */
 }
 
 .Headers {
     margin-right: 290px;
     white-space: nowrap;
+    margin-bottom: -12px;
+}
+
+.head1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.head2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 24px;
+}
+
+.error {
+    color: red;
+    display: flex;
+    margin: 1px;
 }
 
 
 
 input {
-    width: 500px;
-    height: 35px;
+    width: 400px;
+    height: 20px;
     border-radius: 5px;
 
 }
@@ -27,13 +51,15 @@ input, label {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: large;
+    /* font-size: large; */
     padding: 5px;
 }
 
+
+
 select {
-    width: 510px;
-    height: 45px;
+    width: 412px;
+    height: 34px;
     border-radius: 5px;
 }
 
@@ -46,11 +72,12 @@ select, label {
 
 .Button {
     display: flex;
+    /* overflow: hidden; */
 }
 
 .Btn1 {
-    width: 140px;
-    height: 45px;
+    width: 120px;
+    height: 35px;
     background-color: white;
     color: black;
     border: 2px solid gray;
@@ -59,8 +86,8 @@ select, label {
 }
 
 .Btn2 {
-    width: 140px;
-    height: 45px;
+    width: 120px;
+    height: 35px;
     background-color: blue;
     color: white;
     border: none;
